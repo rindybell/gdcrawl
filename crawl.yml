@@ -1,0 +1,23 @@
+# base_URL (if page_pattern is 'linear', '{}' argument is required)
+base_URL: 'http://carinf.mlit.go.jp/jidosha/carinf/opn/search.html?selCarTp=1&lstCarNo=000&txtFrDat=1000%2F01%2F01&txtToDat=9999%2F12%2F31&txtNamNm=&txtMdlNm=&txtEgmNm=&chkDevCd=&page={}'
+
+# page_pattern: 'tree_head', 'recurrent' or 'linear'
+fetch_pattern: 'linear'
+
+# savefolder
+savefolder: 'save'
+
+# next_URL (if page_pattern is 'recurrent', required)
+next_URL_pattern: 
+
+# item_URL (if page_pattern is 'tree', required)
+item_URL_pattern:
+
+# start page index (if page_pattern is 'linear', required)
+start: 1
+
+# end page index
+end: 4709
+
+# sleep time:
+sleep_time: 0.2
